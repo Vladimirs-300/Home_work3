@@ -10,7 +10,7 @@ int Prompt(string message)
     System.Console.Write(message);
     return Convert.ToInt32(System.Console.ReadLine());
 }
-
+int number = Prompt("Введите число -> ");
 void Square(int number)
 {
     int index = 1;
@@ -20,5 +20,5 @@ void Square(int number)
         index++;
     }
 }
-int number = Prompt("Введите число -> ");
+
 Square(number);
